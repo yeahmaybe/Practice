@@ -23,7 +23,7 @@ jobs:
           python-version: '3.7'
           
       - name: Install Dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r my-environment.yml
       
       - name: Exeute Notebook
         run: jupyter-nbconvert --execute task1.ipynb --to html
