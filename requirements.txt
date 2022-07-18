@@ -9,3 +9,5 @@ pandas
 seaborn
 install
 kaggle
+xgboost
+lightgbm
