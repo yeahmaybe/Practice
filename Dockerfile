@@ -1,4 +1,4 @@
-FROM circleci/python3.6.4
+FROM circleci/python
 ADD . ./
-RUN sudo pip install –r requirements.txt
-RUN sudo jupyter-nbconvert --execute ./task1.ipynb
+RUN sudo pip install -r requirements.txt
+RUN sudo jupyter-nbconvert --to=html --execute task1.ipynb

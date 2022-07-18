@@ -5,3 +5,7 @@ numpy
 matplotlib
 sklearn
 ipykernel
+pandas
+seaborn
+install
+kaggle
